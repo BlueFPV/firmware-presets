@@ -1,0 +1,41 @@
+#$ TITLE: TorontoFPVs Magic Tune
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: TorontoFPV, Discus, 3.5, tune, pid,
+#$ AUTHOR: BlueFPV
+#$ DISCUSSION: https://discord.gg/dgmaCQM3MB
+#$ DESCRIPTION: TorontoFPVs magic Tune for "Everything :D" 
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+#$ INCLUDE: presets/4.5/filters/defaults.txt
+
+set dterm_lpf1_dyn_min_hz = 90
+set dterm_lpf1_dyn_max_hz = 180
+set dterm_lpf1_static_hz = 90
+set dterm_lpf2_static_hz = 180
+set vbat_sag_compensation = 80
+set anti_gravity_gain = 0
+set p_pitch = 78
+set i_pitch = 112
+set d_pitch = 57
+set f_pitch = 134
+set p_roll = 75
+set i_roll = 107
+set d_roll = 50
+set f_roll = 129
+set p_yaw = 75
+set i_yaw = 107
+set f_yaw = 129
+set d_min_roll = 50
+set d_min_pitch = 57
+set motor_output_limit = 95
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 5
+set simplified_master_multiplier = 120
+set simplified_i_gain = 80
+set simplified_d_gain = 140
+set simplified_pi_gain = 140
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 90
+set simplified_dterm_filter_multiplier = 120
