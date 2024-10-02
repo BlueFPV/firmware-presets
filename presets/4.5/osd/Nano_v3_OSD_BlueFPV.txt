@@ -1,0 +1,21 @@
+#$ TITLE: BlueFPV OSD for HDZero Nano V3
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: HDZERO, osd, bluefpv
+#$ AUTHOR: BlueFPV
+#$ DESCRIPTION: OSD For HDZero NanoV3 (4:3)
+
+set osd_warn_bitmask = 8191
+set osd_link_quality_pos = 3110
+set osd_tim_2_pos = 3142
+set osd_flymode_pos = 2120
+set osd_throttle_pos = 3591
+set osd_vtx_channel_pos = 18472
+set osd_altitude_pos = 17478
+set osd_avg_cell_voltage_pos = 2567
+set osd_disarmed_pos = 2421
+set osd_flip_arrow_pos = 2392
+set osd_pid_profile_name_pos = 1126
+set osd_canvas_width = 50
+set osd_canvas_height = 18
